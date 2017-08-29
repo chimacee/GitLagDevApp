@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GitLagDevApp</string>
+    <string name="developers_in_lagos">List of Developers</string>
+    <string name="share_header">Click SHARE to spread the word about this awesome developer...</string>
+    <string name="details">Developer\'s Details</string>
+    <string name="search">Search</string>
+</resources>
