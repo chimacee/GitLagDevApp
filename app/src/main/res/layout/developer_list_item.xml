@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="@dimen/list_item_height"
-    android:background="@color/primary_color"
+    android:background="#FFFFFF"
     android:orientation="horizontal">
 
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height"
+        android:layout_margin="8dp"
         tools:src="@drawable/p_image" />
 
     <LinearLayout
@@ -25,12 +26,14 @@
             android:layout_weight="1"
             android:gravity="bottom"
             android:fontFamily="serif"
+            android:paddingStart="@dimen/activity_horizontal_margin"
             android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textStyle="bold"
             tools:text="chukwudichima01"
-            android:background="#E65100"/>
+            android:background="@android:color/background_light"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -38,9 +41,12 @@
             android:layout_weight="1"
             android:gravity="top"
             android:textAppearance="?android:textAppearanceSmall"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="italic"
             android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
             android:text="Lagos, Nigeria"
-            android:background="#FFA000"/>
+            android:background="@android:color/darker_gray"/>
     </LinearLayout>
 </LinearLayout>
